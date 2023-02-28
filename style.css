@@ -1,0 +1,273 @@
+#nav_bar{
+        padding: 0 8%;
+}
+.navbar-nav {
+--bs-nav-link-font-weight: 500;
+    --bs-nav-link-color: rgb(246 246 246);
+    font-size: 20px;
+    padding-left: 40px;
+}
+#searchbtn{
+    border-radius: 0px;
+    padding: 0px 20px;
+    z-index: 1;
+    position: relative;
+}
+#searchbox{
+    background-color:  #fcc302;
+    filter: drop-shadow(7.512px 14.127px 9px rgba(74,74,74,0.1));
+    border: none;
+    border-radius: 0px;
+    color: white;
+    position: relative;
+    left: 60px;
+}
+#searchbox::placeholder{
+    color: white;
+}
+
+
+@media only screen and (max-width:1000px){
+    #nav_bar{
+        padding: 0px;
+    }
+    .navbar-nav{
+        padding: 0px;
+    }
+    #Searchform{
+        margin: 0px 0px 20px 0px;
+        position: relative;
+        left: -60px;
+}
+}
+
+@media only screen and (max-width:457px){
+    #nav_bar{
+        padding: 0px;
+    }
+    .navbar-nav{
+        padding: 0px;
+    }
+    #upperlogo{
+        width: 180px;
+    }
+    #
+}
+
+/*banner start*/
+
+#banner{
+    background-color: #fcc302;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+#bannertext h1{
+    font-size: 67px;
+    margin-top: 100px;
+    color: white;
+}
+#bannertext p{
+    font-size: 29px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#banner-btn-1{
+    background-color: #00bec9;
+    border: 2px solid #00bec9;
+    color: white;
+}
+#banner-btn-2{
+    border: 2px solid white;
+    color: white;
+    margin-left: 36px;
+}
+
+@media only screen and (max-width:1300px){
+    #bannertext h1{
+        font-size: 55px;
+        margin-top: 50px;
+    }
+    #banner{
+        padding-bottom: 50px;
+    }
+
+}
+@media only screen and (max-width:992px){
+    #bannertext h1{
+        font-size: 41px;
+    }
+    #bannertext p{
+        font-size: 24px;
+        margin-top: 15px;
+    }
+    #bannerimg img{
+        padding: 40px 0px 0px 10px;
+    }
+}
+@media only screen and (max-width:450px){
+    #banner{
+        padding-top: 0px;
+        text-align: justify;
+    }
+    #bannertext h1{
+        font-size: 29px;
+    }
+    #banner-btn-2{
+        margin-left: 0px;
+    }
+}
+/*----------------------------------------------------------------------------------*/
+/*service*/
+
+#service-text{
+    padding-top: 10%;
+}
+#service-text h1{
+    font-size: calc(1.375rem + 1.0vw);
+}
+/*#service-text p{
+    font-size: 29px;
+}*/
+#service-img{
+    padding: 5%;
+}
+@media only screen and (max-width:992px){
+  #service-img{
+    padding-top: 10%;
+    }  
+}
+@media only screen and (min-width:1024px) and (max-width:1500px){
+#service-text p{
+    font-size: 24px;
+}
+}
+
+/*counter section*/
+#counter-section{
+    background-image: url(images/counter.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.counter-icon{
+    font-size: 60px;
+}
+#counter-section div h3{
+    padding: 5% 0px;
+}
+
+@media only screen and (max-width:992px){
+    #counter-section{
+        margin-top: 1rem;
+    }
+}
+@media only screen and (max-width:450px){
+    .counter-icon{
+        font-size: 45px;
+    }
+}
+
+/*blog section */
+.blog-detail{
+    padding: 15px;
+    border: 1px solid grey;
+    border-top: none;
+}
+
+@media only screen and (min-width:1024px) and (max-width:1500px){
+    #blog-header{
+        font-size: 55px;
+    }
+    #blog-sub{
+        font-size:25px;
+
+    }
+}
+@media only screen and (min-width:450px) and (max-width:992px){
+    #blog-header{
+        font-size: 30px;
+    }
+    #blog-sub{
+        font-size:15px;
+        
+    }
+}
+
+
+/*veccare doctor*/
+.card{
+    margin:0px 10px;
+    width: calc(100%/3);
+    box-shadow: 0px 0px 10px grey;
+    background: linear-gradient(-100deg,white 50%, #fcc302 50%);
+}
+.card-text{
+    text-align: justify;
+}
+.img-wrapper{
+    height: 22vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-wrapper img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+}
+
+/*footer start*/
+#footer div a{
+    margin-top: 7px;
+    text-decoration: none;
+    color: white;
+}
+form input[type='text']{
+    border-radius: 0px;
+    padding: 15px;
+    width: 100%;
+    max-width: 250px;
+    position: relative;
+    left: 10px;
+    bottom: 2px;
+}
+form i{
+    color: white;
+}
+#footer-form button{
+    border: none;
+    padding: 15px 30px;
+} 
+.social-icon{
+    font-size: 25px;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+#footer div{
+    padding: 60px 0px;
+}
+@media only screen and (max-width:1070px){
+    form input[type='text']{
+        max-width: 200px;
+    }
+}
+@media only screen and (max-width:768px){
+    form input[type='text']{
+        max-width: 150px;
+    }
+}
+@media only screen and (max-width:450px){
+   form input[type='text']{
+    max-width: 200px;
+   }
+
+    #footer div{
+        padding: 20px 0px;
+    }
+}
+@media only screen and (max-width:450px){
+   form input[type='text']{
+    max-width: 130px;
+   }
